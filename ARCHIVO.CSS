@@ -1,0 +1,266 @@
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)), url(https://images.pexels.com/photos/8980252/pexels-photo-8980252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+ .div1 { grid-area: 1 / 1 / 2 / 2; 
+    margin: 20px;
+    }
+
+.div1 nav {
+        display: flex;
+    }
+    
+.div1 nav ul {
+        list-style-type: none;
+        margin: 20px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    
+    .div1 nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .div1 nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 12px;
+        border-radius: 20px;
+        font-size: 20px;
+        
+    }
+
+    .div1 nav ul li a:hover{
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        font-weight: 800px;
+        color: black;
+    }
+
+
+    .div2 { 
+        grid-area: 1 / 2 / 2 / 5; 
+        margin: 20px;
+
+    }
+    
+    .div2 nav {
+        display: flex;
+        justify-content: flex-end; /* Esto posicionará los elementos del nav a la derecha */
+    }
+    
+    .div2 nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    .div2 nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    
+    .div2 nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 12px;
+        border-radius: 20px;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+
+    .div2 nav ul li a:hover{
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        font-weight: 800px;
+        color: black;
+    }
+
+    .material-symbols-outlined{
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-top: -3px;
+        margin-left: -15px;
+    
+    }
+
+.div3{
+    grid-area: 2 / 1 / 5 / 2;
+    color: #fff;
+    height: 600px;
+    margin-top: -40px;
+}
+
+.div3 h2{
+    margin: 10px;
+    border-radius: 40px;
+    padding-left: 8px;
+    font-size: 34px;
+    font-style: italic;
+}
+
+.div3 h2:hover{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    color: black;
+}
+
+.div3 p{
+    margin: 15px;
+    border-radius: none;
+    text-align: justify;  
+    line-height: 25px; 
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.div3 p:hover{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+        color: black;
+    font-weight: 500;
+}
+
+
+
+.div4{
+    color: #fff;
+    height: 400px;
+    grid-area: 2 / 4 / 5 / 5;
+    margin-top: -40px;
+    height: 600px;
+    
+    }
+
+.div4 h2{
+    margin: 10px;
+    border-radius: 40px;
+    padding-left: 10px;
+    font-size: 34px;
+    font-style: italic;
+}
+
+.div4 h2:hover{
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    color: black;
+}
+
+.div4 p{
+    margin: 15px;
+    border-radius: none;
+    text-align: justify;  
+    line-height: 25px; 
+    border-radius: 20px;
+    padding: 10px;
+}
+.div4 p:hover{
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    color: black;
+font-weight: 500;
+}
+
+.div5 { grid-area: 2 / 2 / 5 / 4;
+        background-image: linear-gradient(rgba(61, 61, 61, 0.75), rgba(65, 64, 64, 0.75)), url(https://media.istockphoto.com/id/1227179949/es/foto/ingeniero-industrial-que-trabaja-en-un-ordenador-personal-dos-pantallas-de-monitor-muestran-el.jpg?s=612x612&w=0&k=20&c=uCtnuKUEjX2YVszSnbND5F0GiZ4LxeTOMoL6gHtI-rI=);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border-radius: 30px;
+        box-shadow: 0 0 10px rgba(12, 11, 17, 0.5);
+        max-height: 400px;
+    }
+
+.div5 h2{
+    margin-top: 50px;
+    font-size: 50px;
+    color: #202224;
+    letter-spacing: 20px;
+    padding-left: 20px;
+    border-width: 10px;
+    border-color: rgb(3, 3, 54);
+    border-radius: 20px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: oblique;
+
+}
+
+.div5 p{
+    margin-top: -20px;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 40px;
+    font-weight: 1000px;
+    color: #b4b4b4;
+}
+
+.div5 img{
+    width: 20%;
+    height: 30%;
+    
+}
+
+.div5 img:hover{
+    width: 25%;
+    height: 35%;
+}
+
+.div6 { grid-area: 5 / 1 / 6 / 5; 
+    color: #fff;
+}
+
+.redes{
+    display: block;
+    margin-left: 20px;
+    margin-top: -20px;
+    }
+.redes ul{
+    flex-direction: column;
+}
+
+.redes ul li{
+    margin: 20px;
+    list-style: none;
+}
+
+.redes ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes ul li a:hover{
+    color: #1f5489;
+}
+
+.div6 img{
+    width: 20px;
+    margin-bottom: -2px;
+    padding-right: 10px;
+}
+
+.div6 .aviso{
+    margin-left: 70%;
+    text-align: justify;
+    font-size: 8px;
+    float: right;
+    font-style: italic;
+}
